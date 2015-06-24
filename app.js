@@ -48,7 +48,7 @@ $(document).ready(function(){
                 break;
         }
         if(headX < 0 || headX > DEFAULT_GRID_COUNT || headY < 0 || headY > DEFAULT_GRID_COUNT || check_collision(headX, headY, snakeArray)){
-            alert('天天，你输了～～ T_T \n 再来一次吧！');
+            alert('you lost!!');
             init();
             return;
         }
